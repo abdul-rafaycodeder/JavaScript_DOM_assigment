@@ -1,0 +1,67 @@
+ nav {
+     border-radius: 20px;
+     background-color: #ffffff;
+     height: 70px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .logo {
+     font-size: 2em;
+     font-weight: bold;
+     color: #2563eb;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     transition: all ease-in-out 0.5s;
+
+ }
+
+ .nav-links {
+     font-size: 1.2em;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+ }
+
+ .nav-links>li>a {
+     font-size: 5em;
+     font-weight: 700;
+     text-decoration: none;
+     font-size: 1.2em;
+     color: #000000;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     transition: all ease-in-out 0.5s;
+
+ }
+
+ #icon {
+     font-size: 2em;
+     color: #000000;
+     cursor: pointer;
+     transition: all ease-in-out 0.3s;
+ }
+
+ /* hover effects */
+
+ #icon:hover {
+    transform: scale(1.2);
+}
+
+.nav-links>li>a:hover {
+    color: #2563eb;
+}
+
+.logo:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* main work */
+
+    

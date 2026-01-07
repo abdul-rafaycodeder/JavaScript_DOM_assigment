@@ -6,30 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 </head>
 
 <body>
 
     <nav>
-        <h2>Simple Counter App</h2>
+        <div class="logo">My Projects</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="https://github.com/abdul-rafaycodeder" id="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61577331821573" class="channel" id="icon"> <i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.youtube.com/@abdulrafaycode" class="channel" id="icon"><i class="fa-brands fa-youtube">
+                </i></a>
+            <a href="https://www.youtube.com/@ReGrowthMindset" class="channel" id="icon"><i
+                    class="fa-brands fa-youtube"> </i></a>
+        </ul>
     </nav>
+
 
 
     <div id="container">
         <div class="number_container">
             <h1>0</h1>
         </div>
-        <div class="button_container">  
+        <div class="button_container">
             <button id="increase" onclick="RunNumbers('increase')">Increase</button>
             <button id="reset" onclick="RunNumbers('reset')">Reset</button>
             <button id="decrease" onclick="RunNumbers('decrease')">Decrease</button>
         </div>
-        <a href="../index.html" id="back"> < back</a>
+        <a href="../index.html" id="back">
+            < back</a>
 
 
+                 
 
-
-<script src="index.js"></script>
+                <script src="index.js"></script>
 
 </body>
 
