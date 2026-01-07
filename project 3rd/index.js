@@ -16,10 +16,10 @@ function signup() {
     var result = document.getElementById("result");
 
     if (name === "" || email === "" || password === "") {
-        result.innerText = "Please fill all fields ❌";
+        result.innerText = "Please fill all fields, kuck to likhoo ❌";
         result.style.color = "red";
     } else {
-        result.innerText = "Signup Successful ✅";
+        result.innerText = "Signup Successful, kya bad hai likha hai ✅";
         result.style.color = "green";
     }
 }
