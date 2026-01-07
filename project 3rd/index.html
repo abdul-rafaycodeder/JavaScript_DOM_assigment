@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3rd assigment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 </head>
+
 <body>
-    
 
-    
+    <!-- navbar -->
+    <nav>
+        <div class="logo">My Projects</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="https://github.com/abdul-rafaycodeder" id="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61577331821573" class="channel" id="icon"> <i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.youtube.com/@abdulrafaycode" class="channel" id="icon"><i class="fa-brands fa-youtube">
+                </i></a>
+            <a href="https://www.youtube.com/@ReGrowthMindset" class="channel" id="icon"><i
+                    class="fa-brands fa-youtube"> </i></a>
+        </ul>
+    </nav>
+
+
+    <real project <div class="SignUp-box">
+
+        <h1>Sign Up</h1>
+
+        <input type="text" id="name" placeholder="enter your name">
+
+        <input type="email" id="email" placeholder="enter your email">
+
+        <div class="password-box">
+            <input type="password" id="password" placeholder="enter your password">
+
+            <span class="toggle" onclick="toggerPassword()">Show</span>
+
+        </div>
+
+        <button onclick="signup()">Create Account</button>
+
+        <p id="result"></p>
+
+        </div>
+
+        
+
+        <div id="container">
+            <h1 class="signup">Sign Up</h1>
+            <input class="input2" type="text" placeholder="Enter your name" id="name" required>
+            <input class="input2" type="email" placeholder="Enter your email" id="email" required>
+            <div class="eye">
+                <input class="input2" type="password" placeholder="Enter your password" id="password" required>
+                <span id="showPassword" onclick="showPassWord()">
+                    <i class="fa-solid fa-eye"></i>
+                </span>
+                <button onclick="signup()">Create Account</button>
+            </div>
+        </div>
+        </div>
 
 
 
-
-
-
-
+        <script src="index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,136 @@
+ nav {
+     border-radius: 20px;
+     background-color: #ffffff;
+     height: 70px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .logo {
+     font-size: 2em;
+     font-weight: bold;
+     color: #2563eb;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     transition: all ease-in-out 0.5s;
+
+ }
+
+ .nav-links {
+     font-size: 1.2em;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+ }
+
+ .nav-links>li>a {
+     font-size: 5em;
+     font-weight: 700;
+     text-decoration: none;
+     font-size: 1.2em;
+     color: #000000;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     transition: all ease-in-out 0.5s;
+
+ }
+
+ #icon {
+     font-size: 2em;
+     color: #000000;
+     cursor: pointer;
+     transition: all ease-in-out 0.3s;
+ }
+
+ /* hover effects */
+
+ #icon:hover {
+     transform: scale(1.2);
+ }
+
+ .nav-links>li>a:hover {
+     color: #2563eb;
+ }
+
+ .logo:hover {
+     color: #000000;
+     cursor: pointer;
+ }
+
+ body {
+     background-color: #000000;
+ }
+
+ /* real project 3rd css */
+
+ #container {
+
+     margin: auto;
+     background: #ffffff;
+     padding: 25px;
+     height: 300px;
+     width: 348px;
+     margin-top: 260px;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ h1 {
+     font-weight: 700;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     margin-bottom: 20px;
+     color: #0056b3;
+ }
+
+ input {
+      
+     width: 300px;
+     padding: 10px;
+     margin: 8px 0;
+     font-size: 15px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 700;
+ }
+
+ input:focus {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+      outline: none;
+     border: 2px solid #007bff;
+ }
+ 
+
+ .toggle {
+     position: absolute;
+     right: 10px;
+     top: 12px;
+     cursor: pointer;
+     font-size: 14px;
+     color: #007bff;
+ }
+
+ button {
+     width: 345px;
+     padding: 10px;
+     margin-top: 10px;
+     background: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: all ease-in-out 0.4s;
+ }
+
+
+ button:hover {
+     background: #0056b3;
+ }
+
+ p {
+     text-align: center;
+     margin-top: 10px;
+     font-weight: bold;
+ }
