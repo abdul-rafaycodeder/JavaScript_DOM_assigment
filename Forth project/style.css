@@ -70,7 +70,7 @@ background-color: #000000;}
     margin: auto;
     background: #ffffff;
     padding: 25px;
-    height: 220px;
+    height: 250px;
     width: 300px;
     margin-top: 300px;
     border-radius: 10px;
@@ -79,7 +79,13 @@ background-color: #000000;}
 }
 
 #back{
-    
+    background-color: #007bff;
+    padding:  10px 10px;
+    border-radius: 7px;
+    color: white;
+    /* padding-top: 10px; */
+    margin-top: 100px;
+    text-decoration: none;
 }
 
 input {
