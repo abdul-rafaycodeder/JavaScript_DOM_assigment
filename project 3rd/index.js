@@ -35,10 +35,14 @@ function signup() {
         if (passwordField.type === "password") {
             passwordField.type = "text";
 
-        } else if 
-        else {
-            passwordField.type = "password";
+        } else if (name == "" || email == "" || password == "") {
+            result.innerText = "Please fill all fields ❌";
+            result.style.color = "red";
+        } else {
+            result.innerText = "Signup Successful ✅";
+            result.style.color = "green";
         }
-    }
 
+    }
 }
+
